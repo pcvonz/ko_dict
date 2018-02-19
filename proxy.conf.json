@@ -1,0 +1,11 @@
+{
+  "/api": {
+    "target": "https://krdict.korean.go.kr/api/",
+    "secure": false,
+    "pathRewrite": {
+      "^/api": ""
+    },
+    "changeOrigin": true
+  }
+}
+
